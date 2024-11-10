@@ -8,5 +8,7 @@ import "./styles/schedule.css";
 //Configuração do dayjs
 import "./libs/dayjs.js";
 
-import dayjs from "dayjs";
-console.log(dayjs().format("DD/mm - HH:mm"));
+//js
+
+import "./modules/form/submit.js";
+import "./modules/page-load.js";
