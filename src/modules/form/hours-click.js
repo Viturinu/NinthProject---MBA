@@ -5,7 +5,7 @@ export function hoursClick(){
 
             available.addEventListener("click", (selected) => {
 
-            //Remove a hour-selected de todas as li não selecionadas, para posteriormente aplicar apenas na LI selecionada. Como abaixo, com a propriedade target do evento.
+            //Remove a hour-selected de todas as li (no momemnto do click), para posteriormente (lá embaixo) aplicar apenas na LI selecionada. Como abaixo, com a propriedade target do evento.
             hours.forEach((hour) => {
                 hour.classList.remove("hour-selected");
             })
